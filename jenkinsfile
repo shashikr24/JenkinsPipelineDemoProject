@@ -1,0 +1,31 @@
+pipeline{
+agent any
+stages 
+{
+stage('DemoJob1') 
+{
+steps{
+echo 'DemoJob1 Hello World'
+}
+}
+stage('DemoJob2') 
+{
+steps{
+echo 'DemoJob2 Hello World'
+}
+}
+stage('DemoJob3') 
+{
+steps{
+echo 'DemoJob3 Hello World'
+}
+}
+
+stage('DemoJob4') 
+{
+steps{
+echo 'DemoJob4 Hello World'
+}
+}
+}
+}
